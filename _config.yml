@@ -12,3 +12,11 @@ paginate: 10
 
 markdown: rdiscount
 permalink: pretty
+
+# Fro asset_pipeline
+asset_pipeline:
+  compress: true 	   # Default = true
+  output_path: assets  # Default = assets, but we just do css, but there is a bug..
+  bundle: true
+  compress: false
+  safe: false

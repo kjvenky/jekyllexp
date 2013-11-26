@@ -1,0 +1,221 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*  sticky footer */
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+}
+#footer {
+	border-top: 1px solid #ddd;
+	margin-top: 40px;
+  background-color: #252528;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+#footer {
+  margin-left: -20px;
+  margin-right: -20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+}
+
+/*  custom menu*/
+.navbar-inverse {
+  background: #3477bb;
+  border-color: #3477bb;
+  min-height: 60px;
+  text-transform: uppercase;
+  font-size: 12px;
+	-webkit-box-shadow:0 0px 0px rgba(0,0,0,0.075);
+	-box-shadow: 0px 0px 0px  rgba(0,0,0,0.075);
+	-moz-box-shadow: 0px 0px 0px  rgba(0,0,0,0.075);  
+}
+
+.navbar-brand {
+	font-size: 32px;text-transform: uppercase;\
+}
+
+.navbar-nav>li>a {
+	padding:20px 25px;
+	font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+	background: #3477bb;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+	background: #3477bb;
+}
+
+.navbar-nav>li>.dropdown-menu {
+	padding: 0px;
+}
+
+.dropdown-menu {
+	min-width: 200px;
+}
+
+.dropdown-menu>li>a {
+	font-size: 12px;
+	padding: 10px;
+	border-bottom: 1px dashed #ddd;
+}
+
+/*  Custom jumbotron on home page*/
+.jumbotron {
+	background-color: #3477bb;
+	color:#fff;
+	border-bottom: 0px solid rgba(255, 255, 255, .8);
+	margin-bottom: 0px;	
+	text-align: center;
+}
+
+/* Content block */
+.content{
+	margin-top: 40px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+}
+
+/* wedo block */
+.wedo{
+	margin-top: 20px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 30px;
+}
+
+/*  news block */
+.news {
+	background-color:#eee;
+	padding: 15px 0px;
+	font-size: 13px;
+	border-bottom: 1px solid #bbb;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px#888;
+	box-shadow: 0 0 5px #888;
+	text-align: center;
+	color:#333;
+}
+
+/*  clients block */
+.clients-title{
+	padding: 20px 0px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+	color:#3477bb;
+}
+
+.clients>.container {
+	/*border-bottom: 1px solid #ddd;*/cmd
+}
+
+.thumbnail{
+	border: 0px;
+	line-height: 22px;
+	-webkit-box-shadow:0 0px 0px rgba(0,0,0,0.075);
+	-box-shadow: 0px 0px 0px  rgba(0,0,0,0.075);
+	-moz-box-shadow: 0px 0px 0px  rgba(0,0,0,0.075);
+}
+
+.thumbnail>.title {
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #3477bb;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+}
+
+.thumbnail>.caption{
+	font-size: 12px;
+}
+
+/*  custom footer */
+#footer>.container>.row:first-child{
+	border-bottom: 1px dashed #333;
+	padding: 40px 0px 30px;
+}
+
+.prefooter{
+}
+
+.prefooter .title{
+	font-size: 12px;
+	color:#999;
+	padding-bottom: 8px;
+	margin-bottom: 6px;
+	border-bottom: 1px solid #333;
+	font-weight: bold;
+}
+
+.prefooter ul{
+	list-style: none;
+}
+
+.prefooter ul li{
+	border-bottom: 1px dotted #333;
+	padding: 3px 0px;
+}
+
+.prefooter a{
+	font-size: 11px;
+	color:#999;	
+	text-decoration: none;
+}
+
+.prefooter a:hover{
+	color:#fff;
+}
+
+.copyright{
+	margin: 20px;
+	font-size: 11px;
+	color: #999;
+}
+
+/* Generel helpers */
+span.readmore{
+	padding:3px 8px;
+	margin-left: 4px; 
+}
+
+span.readmore:hover{
+	background: #3477bb;
+	color: #fff;
+}
+
+blockquote {
+	border-left: 5px solid #666;
+	color:#ddd;
+}
+
+
+
+
+
+
+
