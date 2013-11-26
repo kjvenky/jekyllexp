@@ -1,0 +1,14 @@
+name: "kjvenky"
+description: "Experimenting with jekyll platform"
+
+
+url: "http://localhost:4000”"
+
+
+
+paginate: 10
+
+
+
+markdown: rdiscount
+permalink: pretty
